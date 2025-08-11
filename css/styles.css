@@ -469,7 +469,7 @@ img{
     padding-left: 16px;
     background-color: transparent;
     font-size: 12px;
-    line-height: 2px;
+    line-height: 2;
     letter-spacing: 0.04em;
    color: #fff;
 }
@@ -488,6 +488,7 @@ img{
 .footer-button{
     position: relative;
     display: flex;
+    justify-content: center;
     align-items: center;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
@@ -511,12 +512,6 @@ img{
 .footer-button:focus{
     background-color: #404bbf;
     cursor: pointer;
-}
-
-.footer-icon-telegram{
-position: absolute;
-top: 8px;
-right: 24px;
 }
 .icon-telegram{
     margin-left: 16px;
